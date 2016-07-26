@@ -1,0 +1,25 @@
+// Place all the styles related to the Places controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.marker_container {
+	color: red;
+	background-color: #fdfdfd;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#map-container {
+	position: relative;
+    padding-bottom: 56.25%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+#map {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}

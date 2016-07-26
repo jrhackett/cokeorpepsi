@@ -1,0 +1,5 @@
+== Coke or Pepsi
+
+This is a Rails app written to crowdsource information about restaurants. Users can enter addresses, titles, and descriptions, and a product line (either Coke or Pepsi). These addresses are geocoded and displayed on Google Maps as markers.
+
+This is still a work in progress and mostly serves for me to learn the Google Maps API and Ruby on Rails.
