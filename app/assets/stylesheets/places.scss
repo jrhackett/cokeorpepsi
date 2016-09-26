@@ -8,18 +8,3 @@
 	padding: 10px;
 	border-radius: 10px;
 }
-
-#map-container {
-	position: relative;
-    padding-bottom: 56.25%; // This is the aspect ratio
-    height: 0;
-    overflow: hidden;
-}
-
-#map {
-	position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-}
